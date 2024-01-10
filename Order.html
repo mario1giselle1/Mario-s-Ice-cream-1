@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Order</title>
+</head>
+<body id="Order-Body">
+        <header>
+                <a href="index.html">
+                <img src="css/images/logo12.png" alt="Logo1" id="im-Logo">
+            </a>
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Order.html">Make Order</a></li>
+                <li><a href="About.html">About</a></li>
+                
+            </ul>
+            <!-- <div class="seperator"></div> -->
+            </header>
+            <div class="order-Catalogue-Section">  
+           <img src="css/images/pinkicecream.jpg" id="Pink-Icecream" alt="pink-Icecream"/>
+            </div>
+            <div class="order1">
+            <div class="Border-Arround">
+<img src="css/images/7.png" alt="icecream1" id="im1" onmouseover="onIm.call(this)" onmouseout="outIm.call(this)"><p id="PO1">Make order<br> Below</p>
+<img src="css/images/10.png" alt="icecream1" id="im2" onmouseover="onIm0.call(this)" onmouseout="outIm0.call(this)"><p id="PO2">Make order<br> Below</p>
+<img src="css/images/9.png" alt="icecream1" id="im3" onmouseover="onIm1.call(this)" onmouseout="outIm1.call(this)"><p id="PO3">Make order<br> Below</p>
+<img src="css/images/11.png" alt="icecream1" id="im4" onmouseover="onIm2.call(this)" onmouseout="outIm2.call(this)"><p id="PO4">Make order<br> Below</p>
+</div>
+<div class="Border-Arround2">
+    <img src="css/images/fudge3.png" alt="icecream1" id="im5" onmouseover="onIm3.call(this)" onmouseout="outIm3.call(this)"><p id="PO5" >Make order<br> Below</p>
+    <img src="css/images/fudge4.png" alt="icecream1" id="im6" onmouseover="onIm4.call(this)" onmouseout="outIm4.call(this)"><p id="PO6" >Make order<br> Below</p>
+    <img src="css/images/selective-focus-photography-of-strawberry-ice-cream-with-1352281.jpg" alt="icecream1" id="im7" onmouseover="onIm5.call(this)" onmouseout="outIm5.call(this)"><p id="PO7" >Make order<br> Below</p>
+    <img src="css/images/straw.jpg" alt="icecream1" id="im8" onmouseover="onIm6.call(this)" onmouseout="outIm6.call(this)"><p id="PO8" >Make order<br> Below</p>
+    </div>
+            </div>
+            <div class="Make-Order">
+                <h1>Order Section</h1>
+                <h2>Place order here</h2>
+                <form action="#">
+                    <div class="Left-Side-Order"> 
+                        <div>
+                    <label >Name:</label>
+                    <input type="text" id="t1">
+                </div><br><br>
+                <div>
+                    <label>Item:</label>
+                   <select id="s1">
+                       <option>Select icecream type</option>
+                       <option>Regular Cone</option>
+                       <option>Waffle Cone</option>
+                       <option>4oz cup</option>
+                       <option>6oz cup</option>
+                       <option>10oz cup</option>
+                       <option>Bucket</option>
+                       <option id="optionColor">-----------------Fudges----------------</option>
+                       <option>Small</option>
+                       <option>Medium</option>
+                   </select>
+                </div><br><br>
+                <div>
+                    <label>Flavor:</label>
+                    <select id="s2">
+                            <option>Select flavor</option>
+                            <option>Chocolate</option>
+                            <option>Vanella</option>
+                            <option>Cookie and cream</option>
+                            <option>Strawberry</option>
+                            <option>butter Almond</option>
+                            <option>Coconut</option>
+                            <option id="optionColor">-----------------Fudges----------------</option>
+                            <option>Strawberry</option>
+                            <option>Chocolate</option>
+                            <option>plain</option>
+                        </select>
+                    </div><br><br>
+                    <div>
+                    <label>Pick up time:</label>
+                    <input type="text" id="t2">
+                </div><br><br>
+                 <input type="button" value="Check" onclick="Submit()" id="BTNSUBMIT">
+                 <input type="button" value="Order" onclick="Makeorder()" id="BTNPlaceorder">
+                </div>
+                <div class="right-Side-Order">
+<div id="Image-Box-Order">
+    <img src="css/images/strawberry-drop-on-milk-2064359.jpg" alt="eg image" id="im-Example">
+</div>
+                    </div>
+                    <div class="little_more_right">
+                        <div>
+                            <label id="LABELZ0"></label></div><br>
+                            <div>
+                            <label id="LABELZ1"></label></div><br>
+                            <div>
+                            <label id="LABELZ2"></label></div><br>
+                            <div>
+                            <label id="LABELZ3"></label></div><br>
+                            <div>
+                            <label id="LABELZ4"></label></div><br>
+                            <div>
+                                <input type="button" id="CANCEL" onclick="CLEARING()" value="Cancel order">
+                            </div><br>
+                            <p id="Thank-you-Message"></p>
+                            </div> <!--little_more_right-->
+                </form>
+              
+            </div>
+            <div id="Space-Under"></div>
+
+        <div class="bottom-Section">
+                <div id="Bottom-Left">
+                <h1>Gifted with our hands for creating iceCream</h1>
+                <p>when it comes on the creating iceCream we ensure the best expiernce with customers,
+                    in areas such as: keeping our stores clean, speedy delivery, good hospitality and above all we 
+                    ensure that our iceCream tase never disatisfy you our beloved customers.
+                </p>
+            </div>
+            <div class="Bottom-Right"> 
+                <h2>Locations</h2>
+                <ol>
+                    <li><a href="">lot 149 sunset Avenue Kingston 12</a></li><br>
+                    <li><a href="">404 Pacific Bulvd. Road Kingston 1</a></li><br>
+                    <li><a href="">Shop 104 york plaza halfwaytree</a></li><br>
+                    <li><a href="">Shop 17 luke lane Kingston</a></li><br>
+                    <li><a href="">Shop 21B central Plaza Spanish town</a></li>
+                </ol>
+                <div class="section2">
+                        <h2>Opening hours</h2>
+                        <ol>
+                            <li><a href="">Mon-Fri 2pm-10pm Sat and Sun 10am-11pm</a></li><br>
+                            <li><a href="">Mon-Fri 2pm-10pm Sat and Sun 10am-11pm</a></li><br>
+                            <li><a href="">Mon-Fri 3:30pm-9pm Sat and Sun 11am-9pm</a></li><br>
+                            <li><a href="">Mon-Fri 2:30pm-8pm Sat and Sun 12am-9pm</a></li><br>
+                            <li><a href="">Mon-Fri 4pm-10pm Sat and Sun 11am-9:30pm</a></li>
+                        </ol>
+                </div>
+            </div>
+            
+            </div>
+            <script type="text/javascript">
+            // alert("testing");
+            let p1 = document.getElementById("PO1");
+            p1.style.display = "none";
+            let p2 = document.getElementById("PO2");
+            p2.style.display = "none";
+            let p3 = document.getElementById("PO3");
+            p3.style.display = "none";
+            let p4 = document.getElementById("PO4");
+            p4.style.display = "none";
+            let p5 = document.getElementById("PO5");
+            p5.style.display = "none";
+            let p6 = document.getElementById("PO6");
+            p6.style.display = "none";
+            let p7 = document.getElementById("PO7");
+            p7.style.display = "none";
+            let p8 = document.getElementById("PO8");
+            p8.style.display = "none";
+
+            //let tesT = document.querySelector(".LABELZ1-5");
+             let text;
+             let tesT; //= document.getElementById("LABELZ10");
+           // tesT.style.display = "none";
+            function calling(tesT,text){
+            document.getElementById(tesT).innerHTML=text;
+            }
+            let Image = document.getElementById("im-Example");
+            Image.style.display = "none";
+            let Border = document.getElementById("Image-Box-Order");
+            Border.style.display = "none";
+            let cancel = document.getElementById("CANCEL");
+            cancel.style.display = "none";
+
+            far = document.getElementById("t1");
+            far0 = document.getElementById("s1");
+            far1 = document.getElementById("s2");
+            far2 = document.getElementById("t2");
+            let price=0;
+            function appear(){
+                CALK();
+                calling("LABELZ0","Order#");
+                calling("LABELZ1","Name: "+far.value);
+                calling("LABELZ4","Pick up time: "+far2.value);
+                Image.style.display = "block";
+                Border.style.display = "block";
+                //CLEARING()CANCEL
+                cancel.style.display = "block";
+            }
+            function CALK(){
+                if(far0.value === "Small"){
+                    calling("LABELZ3","Flavor: "+far1.value+"       Cost: "+price);
+                  price =200; 
+                }
+                else if(far0.value === "Regular Cone"){
+                    calling("LABELZ3","Flavor: "+far1.value+"       Cost: "+price);
+                  price =300; 
+                }
+                else if(far0.value === "Waffle Cone"){
+                    calling("LABELZ3","Flavor: "+far1.value+"       Cost: "+price);
+                  price =500; 
+                }
+                else if(far0.value === "4oz cup"){
+                    calling("LABELZ3","Flavor: "+far1.value+"       Cost: "+price);
+                  price =600; 
+                }
+                else if(far0.value === "6oz cup"){
+                    calling("LABELZ3","Flavor: "+far1.value+"       Cost: "+price);
+                  price =800; 
+                }
+                else  if(far0.value === "10oz cup"){
+                    calling("LABELZ3","Flavor: "+far1.value+"       Cost: "+price);
+                  price =1100; 
+                }
+                else if(far0.value === "Bucket"){
+                    calling("LABELZ3","Flavor: "+far1.value+"       Cost: "+price);
+                  price =4000; 
+                }
+                else if(far0.value === "Medium"){
+                    calling("LABELZ3","Flavor: "+far1.value+"       Cost: "+price);
+                  price =350; 
+                }
+                else{
+                    calling("LABELZ3","Flavor: ");
+                }
+
+                if(far1.value != "Select flavor")
+                {
+                    calling("LABELZ2","Item: "+far0.value);
+                }
+                else{
+                    calling("LABELZ2","Item:");
+                }
+            }
+            function CLEARING(){
+                calling("LABELZ0","");
+                calling("LABELZ1","");
+                calling("LABELZ2","");
+                calling("LABELZ3","");
+                calling("LABELZ4","");
+                Image.style.display = "none";
+                Border.style.display = "none";
+                cancel.style.display = "none";
+            }
+
+            function Submit(){
+             CALK();
+             appear();
+            }
+          function Makeorder(){
+            cancel.style.display = "none";
+              calling("Thank-you-Message","Thank you for making it mario's iceCream your order will be ready for you when you arrive.")
+          }
+
+            function onIm(){
+                p1.style.display = "block";
+
+            } 
+            function outIm()
+            {
+                p1.style.display = "none";
+            }
+
+            function onIm0(){
+                p2.style.display = "block";
+
+            } 
+            function outIm0()
+            {
+                p2.style.display = "none";
+            }
+
+            function onIm1(){
+                p3.style.display = "block";
+
+            } 
+            function outIm1()
+            {
+                p3.style.display = "none";
+            }
+
+            function onIm2(){
+                p4.style.display = "block";
+
+            } 
+            function outIm2()
+            {
+                p4.style.display = "none";
+            }
+            function onIm3(){
+                p5.style.display = "block";
+
+            } 
+            function outIm3()
+            {
+                p5.style.display = "none";
+            }
+            function onIm4(){
+                p6.style.display = "block";
+
+            } 
+            function outIm4()
+            {
+                p6.style.display = "none";
+            }
+            function onIm5(){
+                p7.style.display = "block";
+
+            } 
+            function outIm5()
+            {
+                p7.style.display = "none";
+            }
+            function onIm6(){
+                p8.style.display = "block";
+
+            } 
+            function outIm6()
+            {
+                p8.style.display = "none";
+            }
+            </script>
+</body>
+</html>
